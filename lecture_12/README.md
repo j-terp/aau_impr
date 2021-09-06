@@ -1,4 +1,7 @@
 # 12. Dynamic Datastructures - Lists and Trees
+[< Back](../README.md)
+
+---
 - [ ] **12.6** - Functions on circular lists
     - [12-6.c](./12-6.c)
 - [ ] **12.7** - Height function of a binary tree

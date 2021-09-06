@@ -1,4 +1,7 @@
 # 7. Arrays and Pointers
+[< Back](../README.md)
+
+---
 - [ ] **9.2** - Polynomials
     - [9-2.c](./9-2.c)
 - [ ] **9.3** - Reduction of an array

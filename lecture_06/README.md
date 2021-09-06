@@ -1,4 +1,7 @@
 # 6. Functions and aprameters
+[< Back](../README.md)
+
+---
 - [ ] **6.1** - Celsius to Fahrenheit with output parameters
     - [6-1.c](./6-1.c)
 - [ ] **6.2** - Hours, minutes and seconds - again, again
