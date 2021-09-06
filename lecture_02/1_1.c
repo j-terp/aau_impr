@@ -1,3 +1,6 @@
+// Denne opgave er lavet for at du skal undre dig over hvad du oplever i de givne programmer. Dernæst skal du forsøge at forstå det. Detaljerne fremgår ikke nødvendigvis af lærebogen. Når der bliver åbnet for løsningen til opgaven, vil du få mine korte forklaringer.
+
+// Se på følgende program, som adderer tre heltal:
 #include <stdio.h>
 
 int main(void) {
@@ -12,3 +15,5 @@ int main(void) {
 
   return 0;
 }
+
+// Oversæt og kør programmet. Forklar programmets opførsel.

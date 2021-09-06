@@ -1,3 +1,5 @@
+// Her er næste version af programmet, som indlæser heltal:
+
 #include <stdio.h>
 
 int main(void) {
@@ -14,3 +16,12 @@ int main(void) {
 
   return 0;
 }
+
+// Afprøv programmet med følgende input (i et tilsvarende antal kørsler af programmet). Forklar dine observationer:
+
+// 123 456
+// 123    456
+// 123.456
+// 123-456
+// 123_456
+// 123

@@ -1,3 +1,5 @@
+// Se på følgende program, som indholder en række increments og decrements:
+
 #include <stdio.h>
 
 int main(void) {
@@ -18,3 +20,9 @@ int main(void) {
   
   return 0;
 }
+
+// Lav en skrivebordsudførelse af programmet, og forklar hvad der udskrives i de tre kald af printf. I en skrivebordsudførelse gennemgås programmets enkelte trin manuelt - med papir og blyant eller ved en tavle - uden først at køre programmet på en computer.
+
+// Når du er færdig med skrivebordsudførelsen, anbefales at du sammenligner dine resultater med det resultat du får ved at køre programmet på din computer.
+
+// Vær sikker på at diskutere dine resultater med dine medstuderende i gruppen.

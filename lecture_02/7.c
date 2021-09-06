@@ -1,3 +1,5 @@
+// Alle i gruppen bedes compilere og køre programmet med den uinitialiserede variabel fra denne slide.
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -18,3 +20,5 @@ int main(void) {
   
   return EXIT_SUCCESS;
 }
+
+// Kan programmet compileres? Kan I køre programmet? Får I et output fra det kørende program? Får I - i så fald - det samme output fra programmet? Forklar hvorfor - eller hvorfor ikke.

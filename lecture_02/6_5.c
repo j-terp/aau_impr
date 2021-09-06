@@ -1,3 +1,5 @@
+// I den sidste version indlæser vi doubles:
+
 #include <stdio.h>
 
 int main(void) {
@@ -14,3 +16,17 @@ int main(void) {
 
   return 0;
 }
+
+// Afprøv programmet med følgende input (i et tilsvarende antal kørsler af programmet). Forklar dine observationer:
+
+// 12.34 56.78
+// 12.34   56.78
+// 12.34.56.78
+// 12.34 56 . 78
+// 12 34
+// 012 034
+// 12,34
+// .12e3 .4e-2
+// 12a34
+// 12-34
+// 12 - 34	

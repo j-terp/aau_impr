@@ -1,3 +1,5 @@
+// Her er endnu en version af programmet, som indlæser heltal. I denne version er der foretaget en lille forandring af kontrolstrengen af scanf:
+
 #include <stdio.h>
 
 int main(void) {
@@ -14,3 +16,11 @@ int main(void) {
 
   return 0;
 }
+
+// Afprøv programmet med følgende input (i et tilsvarende antal kørsler af programmet). Forklar dine observationer:
+
+// 123;456
+// 123; 456
+// 123 ; 456
+// 123:456
+// 123.456;

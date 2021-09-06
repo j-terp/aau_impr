@@ -1,3 +1,5 @@
+// Kør så programmet
+
 #include <stdio.h>
 
 int main(void) {
@@ -13,3 +15,5 @@ int main(void) {
 
   return 0;
 }
+
+// med samme input som ovenfor. Forklar hvad placeholderen %o i scanf gør i forhold til %d.
