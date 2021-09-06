@@ -22,7 +22,7 @@ Files for the course in Imperative Programming at AAU
     - [2-4.c](./lecture_02/2-4.c)
 - [ ] **2.5** - Weeks, days, hours, minutes and seconds `assignment`
     - [2-5.c](./assignments/2-5.c)
-- [ ] **2.6** - Experiences with `scanf`
+- [ ] **2.6** - Experiences with scanf
     - [2-6-1.c](./lecture_02/2-6-1.c)
     - [2-6-2.c](./lecture_02/2-6-2.c)
     - [2-6-3.c](./lecture_02/2-6-3.c)
