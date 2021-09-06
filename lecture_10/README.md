@@ -1,2 +1,10 @@
-# Tenth lecture
-Files from the exercises that belong to the tenth lecture. 
+# 10. Recursion
+- [ ] **10.2** - Own version of the function strcmp
+    - 10-2.c
+- [ ] **11.1** - A Fibonacci function with memorial work
+    - 11-1.c
+- [ ] **11.3** - Whole number division and signed remainder with recursive functions
+    - 11-3.c
+- [ ] **11.5** - Recursive versions of Euclids algorithm
+    - 11-5.c
+---

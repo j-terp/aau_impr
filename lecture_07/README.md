@@ -1,2 +1,12 @@
-# Seventh lecture
-Files from the exercises that belong to the seventh lecture. 
+# 7. Arrays and Pointers
+- [ ] **9.2** - Polynomials
+    - 9-2.c
+- [ ] **9.3** - Reduction of an array
+    - 9-3.c
+- [ ] **9.4** - bsort
+    - 9-4.c
+- [ ] **9.5** - Dynamic allocation and qsort
+    - 9-5.c
+- [ ] **9.8** - Multiple dicethrows
+    - 9-8.c
+---

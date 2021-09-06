@@ -1,2 +1,13 @@
-# Fifth lecture
-Files from the exercises that belong to the fifth lecture. 
+# 5. Functions and top-down programming
+- [ ] **5.2** - Find the first n primes
+    - 5-2.c
+    - primes.h
+- [ ] **5.3** - Goldbachs assumption
+    - 5-3.c
+- [ ] **5.5** - The leap year function
+    - 5-5.c
+- [ ] **5.6** - Programming a squareroot function
+    - 5-6.c
+- [ ] **5.7** - New functions in old exercises
+    - 5-7.c
+---
