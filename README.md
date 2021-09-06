@@ -61,7 +61,7 @@ Files for the course in Imperative Programming at AAU
     - [5-1.c](./assignments/5-1.c)
 - [ ] **5.2** - Find the first n primes
     - [5-2.c](./lecture_05/5-2.c)
-    - [primes.h](./lecture_05/prime.h)
+    - [primes.h](./lecture_05/primes.h)
 - [ ] **5.3** - Goldbachs assumption
     - [5-3.c](./lecture_05/5-3.c)
 - [ ] **5.5** - The leap year function
