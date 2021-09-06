@@ -1,2 +1,11 @@
 # Assignments
-Files that are the assignments for the course.
+- [ ] **2.5** - Weeks, days, hours, minutes and seconds
+    - 2-5.c
+- [ ] **3.4** - Hours, minutes and seconds - again
+    - 3-4.c
+- [ ] **5.1** - Step by step refinement of `solveQuadraticEquation`
+    - 5-1.c
+- [ ] **11.2** - Palindromes
+    - 11-2.c
+- [ ] **12.4** - Playing Cards
+    - 12-4.c
