@@ -1,0 +1,14 @@
+// I denne opgave vil vi repræsentere et polynomium p af grad n som et array af koeficienter a0, ..., an, hver af typen double,
+
+//    p(x) = a0 + a1 x + a2 x2 + ... + an xn
+
+// hvor an er forskellig fra nul.
+
+// Skriv et C program som indlæser et polynomium af grad højst 8, og som kan beregne polynomiets værdi for forskellige x værdier.
+
+// Opdel din problemløsning i delproblemer, get_polynomium, som indlæser et polynomium i et array, og eval_polynomium, som beregner polynomiets værdi for en given x værdi:
+
+// void get_polynomium(double coeff[], int* degreep);
+// double eval_polynomium(const double coeff[], int degree, double x);
+
+// Denne opgave svarer til opgave 14 side 464 i 6. udgave af lærebogen

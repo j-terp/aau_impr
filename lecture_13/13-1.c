@@ -1,0 +1,7 @@
+// Skriv en funktion
+/*
+  int getwords(FILE *ifp, int k, char *words)
+*/
+// der, om muligt, læser k ord fra tekstfilen der er udpeget af pointeren ifp. Ordene skal læses over i tekststrengen words (som allokeres af den funktion, som kalder getwords). Hvis det ønskes kan ordene organiseres linievis i words, eller blot med 'white space' imellem ordene.
+
+// Den programmerede funktion skal returnere det faktiske antal af læste ord (som kan være mindre end k).
