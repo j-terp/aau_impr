@@ -20,7 +20,7 @@ Files for the course in Imperative Programming at AAU
     - [2-3.c](./lecture_02/2-3.c)
 - [ ] **2.4** - Scan of doubles
     - [2-4.c](./lecture_02/2-4.c)
-- [ ] **2.5** - Weeks, days, hours, minutes and seconds (assignment)
+- [ ] **2.5** - Weeks, days, hours, minutes and seconds `assignment`
     - [2-5.c](./assignments/2-5.c)
 - [ ] **2.6** - Experiences with `scanf`
     - [2-6-1.c](./lecture_02/2-6-1.c)
@@ -38,9 +38,9 @@ Files for the course in Imperative Programming at AAU
     - [3-2.c](./lecture_03/3-2.c)
 - [ ] **3.3** - pH values
     - [3-3.c](./lecture_03/3-3.c)
-- [ ] **3.4** - Hours, minutes and seconds - again (assignment)
+- [ ] **3.4** - Hours, minutes and seconds - again `assignment`
     - [3-4.c](./assignments/3-4.c)
-- [ ] **3.5** - Order of conditions in an `if-else` chain
+- [ ] **3.5** - Order of conditions in an if-else chain
     - [3-5-1.c](./lecture_03/3-5-1.c)
     - [3-5-2.c](./lecture_03/3-5-2.c)
 ---
@@ -53,11 +53,11 @@ Files for the course in Imperative Programming at AAU
     - [4-3.c](./lecture_04/4-3.c)
 - [ ] **4.5** - A simplified edition of Euclids algorithm
     - [4-5.c](./assignments/4-5.c)
-- [ ] **4.6** - Straightforward programming of biggest common divisor (assignment)
+- [ ] **4.6** - Straightforward programming of biggest common divisor `assignment`
     - [4-6.c](./lecture_04/4-6.c)
 ---
 ## [5. Functions and top-down programming](./lecture_05/README.md)
-- [ ] **5.1** - Step by step refinement of `solveQuadraticEquation` (assignment)
+- [ ] **5.1** - Step by step refinement of solveQuadraticEquation `assignment`
     - [5-1.c](./assignments/5-1.c)
 - [ ] **5.2** - Find the first n primes
     - [5-2.c](./lecture_05/5-2.c)
@@ -118,7 +118,7 @@ Files for the course in Imperative Programming at AAU
     - [10-2.c](./lecture_10/10-2.c)
 - [ ] **11.1** - A Fibonacci function with memorial work
     - [11-1.c](./lecture_10/11-1.c)
-- [ ] **11.2** - Palindromes (assignment)
+- [ ] **11.2** - Palindromes `assignment`
     - [11-2.c](./assignments/11-2.c)
 - [ ] **11.3** - Whole number division and signed remainder with recursive functions
     - [11-3.c](./lecture_10/11-3.c)
@@ -130,7 +130,7 @@ Files for the course in Imperative Programming at AAU
     - [12-2.c](./lecture_11/12-2.c)
 - [ ] **12.3** - The function tomorrow
     - [12-3.c](./lecture_11/12-3.c)
-- [ ] **12.4** - Playing Cards (assignment)
+- [ ] **12.4** - Playing Cards `assignment`
     - [12-4.c](./assignments/12-4.c)
 - [ ] **12.5** - Fractions and structs
     - [12-5.c](./lecture_11/12-5.c)
