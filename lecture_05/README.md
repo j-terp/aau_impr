@@ -6,7 +6,7 @@
     - [5-1.c](../assignments/5-1.c)
 - [ ] **5.2** - Find the first n primes
     - [5-2.c](./5-2.c)
-    - [primes.h](./prime.h)
+    - [primes.h](./primes.h)
 - [ ] **5.3** - Goldbachs assumption
     - [5-3.c](./5-3.c)
 - [ ] **5.5** - The leap year function
