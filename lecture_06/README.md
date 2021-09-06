@@ -1,12 +1,12 @@
 # 6. Functions and aprameters
 - [ ] **6.1** - Celsius to Fahrenheit with output parameters
-    - 6-1.c
+    - [6-1.c](./6-1.c)
 - [ ] **6.2** - Hours, minutes and seconds - again, again
-    - 6-2.c
+    - [6-2.c](./6-2.c)
 - [ ] **6.3** - Banknote delivery from an ATM
-    - 6-3.c
+    - [6-3.c](./6-3.c)
 - [ ] **6.4** - A function that calls another functions several times
-    - 6-4.c
+    - [6-4.c](./6-4.c)
 - [ ] **6.6** - Currency converter
-    - 6-6.c
+    - [6-6.c](./6-6.c)
 ---

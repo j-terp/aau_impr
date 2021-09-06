@@ -1,12 +1,12 @@
 # 13. Input/Output and Files
 - [ ] **13.1** - Reading of k words from a file
-    - 13-1.c
+    - [13-1.c](./13-1.c)
 - [ ] **13.2** - A simple grep function
-    - 13-2.c
+    - [13-2.c](./13-2.c)
 - [ ] **13.3** - Input and Output of structs
-    - 13-3.c
+    - [13-3.c](./13-3.c)
 - [ ] **13.4** - Thin matrices
-    - 13-4.c
+    - [13-4.c](./13-4.c)
 - [ ] **13.5** - Reading of personal files in a comma-separated textfile
-    - 13-5.c
+    - [13-5.c](./13-5.c)
 ---

@@ -1,6 +1,6 @@
 # 1. Course Introduction
-- **[1.9]** - Programming Style
-    - 1-9.c
-- **[1.10]** - Copy, Edit, Compile and Run a Program
-    - prog.c
+- [x] **1.9** - Programming style
+    - [1-9.c](./1-9.c)
+- [x] **1.10** - Copy, edit, compile and run a program
+    - [prog.c](./prog.c)
 ---

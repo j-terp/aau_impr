@@ -1,13 +1,15 @@
 # 5. Functions and top-down programming
+- [ ] **5.1** - Step by step refinement of `solveQuadraticEquation` (assignment)
+    - [5-1.c](../assignments/5-1.c)
 - [ ] **5.2** - Find the first n primes
-    - 5-2.c
-    - primes.h
+    - [5-2.c](./5-2.c)
+    - [primes.h](./prime.h)
 - [ ] **5.3** - Goldbachs assumption
-    - 5-3.c
+    - [5-3.c](./5-3.c)
 - [ ] **5.5** - The leap year function
-    - 5-5.c
+    - [5-5.c](./5-5.c)
 - [ ] **5.6** - Programming a squareroot function
-    - 5-6.c
+    - [5-6.c](./5-6.c)
 - [ ] **5.7** - New functions in old exercises
-    - 5-7.c
+    - [5-7.c](./5-7.c)
 ---
