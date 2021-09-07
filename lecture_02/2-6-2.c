@@ -25,3 +25,6 @@ int main(void) {
 // 123-456
 // 123_456
 // 123
+
+// Svar: mængden af whitespace mellem tallene er ubetydeligt, men når det ikke er heltal så ignoreres det efter komma, detsamme med underscore. De to næste variabler bliver noget der allerede findes i hukommelsen, dvs. mærkelige tal. Bindestreg bliver tolket som minues, og bliver til et prefix for den næste variabel. Til sidst når der mangler den siste variabel mangler, så godtages verken white space eller nye rækker. Der bliver dermed nød til at skrives noget, indtil den godtager det.
+// scanRes er to når den anden variabel er godtaglige, ellers er den 1.

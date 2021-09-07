@@ -24,3 +24,6 @@ int main(void) {
 // 123 abe 456
 // 123 kat 456
 // -123abe-456
+
+// Svar: Når abe er imellem de to variable, så bliver begge godtaget. Andre input giver kun til den første variabel og den anden bliver mærkelig.
+// scanRes er 2 når abe er med, ellers 1.

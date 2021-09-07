@@ -24,3 +24,6 @@ int main(void) {
 // 123 ; 456
 // 123:456
 // 123.456;
+
+// Når semikolon er lige efter den første variabel, så er begge godtagelige. Når den står for sig selv bliver den anden variabel mærkelig. Kolon virker heller ikke som separator, og komma er allerede prøvet før.
+// scanRes giver 2 i de første to tilfælde, 1 i resterende.

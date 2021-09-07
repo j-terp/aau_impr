@@ -29,3 +29,6 @@ int main(void) {
 // abcd
 // ab
 // a b c d
+
+// Svar: Den tager de første fire tegn og sætter dem till variablerne c1, c2, c3 og c4. Mangler der bokstaver venter den på input for resterende, kan sagtens være whitespace.
+// scanRes tager mængden af de opsamlede variabler, vilket altid vil være 4.
