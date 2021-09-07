@@ -22,3 +22,5 @@ int main(void) {
 }
 
 // Kan programmet compileres? Kan I køre programmet? Får I et output fra det kørende program? Får I - i så fald - det samme output fra programmet? Forklar hvorfor - eller hvorfor ikke.
+
+// Svar: Det kan compilleres og køres, men det mangler output. Det er fordi printf functionerne mangler en initiering af variablen 'groups', og kan derfor ikke køre dem hvor variablen indgår, det vil sige dem alle sammen.
