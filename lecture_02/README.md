@@ -7,7 +7,7 @@
     - [2-1-2.c](./2-1-2.c)
     - [2-1-3.c](./2-1-3.c)
     - [2-1-4.c](./2-1-4.c)
-- [ ] **2.3** - Increment and Decrement operators
+- [x] **2.3** - Increment and Decrement operators
     - [2-3.c](./2-3.c)
 - [ ] **2.4** - Scan of doubles
     - [2-4.c](./2-4.c)
