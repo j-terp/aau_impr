@@ -8,17 +8,13 @@
 int main(void){
     int weeks, days, hours, minutes, seconds;
 
-    printf("Enter amount of seconds: ");
-    scanf("%d", &seconds);
+    printf("Enter amount of seconds: ");scanf("%d", &seconds);
 
-    weeks = seconds / SECONDS_PER_WEEK;
-    seconds = seconds % SECONDS_PER_WEEK;
-    days = seconds / SECONDS_PER_DAY;
-    seconds = seconds % SECONDS_PER_DAY;
-    hours = seconds / SECONDS_PER_HOUR;
-    seconds = seconds % SECONDS_PER_HOUR;
-    minutes = seconds / SECONDS_PER_MINUTE;
-    seconds = seconds % SECONDS_PER_MINUTE;
+    // Konverterer antalet sekunder til formatet "uger, dage, timer, minuter og sekunder"
+    weeks = seconds / SECONDS_PER_WEEK;     seconds = seconds % SECONDS_PER_WEEK;
+    days = seconds / SECONDS_PER_DAY;       seconds = seconds % SECONDS_PER_DAY;
+    hours = seconds / SECONDS_PER_HOUR;     seconds = seconds % SECONDS_PER_HOUR;
+    minutes = seconds / SECONDS_PER_MINUTE; seconds = seconds % SECONDS_PER_MINUTE;
 
     printf("%d uger, %d dage, %d timer, %d minuter, %d sekunder.", weeks, days, hours, minutes, seconds);
     return 0;
