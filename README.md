@@ -11,7 +11,7 @@ Files for the course in Imperative Programming at AAU
     - [prog.c](./lecture_01/prog.c)
 ---
 ## [2. Introduction to C](./lecture_02/README.md)
-- [ ] **2.1** - A program that adds three digits
+- [x] **2.1** - A program that adds three digits
     - [2-1-1.c](./lecture_02/2-1-1.c)
     - [2-1-2.c](./lecture_02/2-1-2.c)
     - [2-1-3.c](./lecture_02/2-1-3.c)

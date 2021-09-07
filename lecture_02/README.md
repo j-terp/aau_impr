@@ -2,7 +2,7 @@
 [< Back](../README.md)
 
 ---
-- [ ] **2.1** - A program that adds three digits
+- [x] **2.1** - A program that adds three digits
     - [2-1-1.c](./2-1-1.c)
     - [2-1-2.c](./2-1-2.c)
     - [2-1-3.c](./2-1-3.c)

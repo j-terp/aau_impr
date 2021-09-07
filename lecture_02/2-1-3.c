@@ -17,3 +17,6 @@ int main(void) {
 }
 
 // med samme input som ovenfor. Forklar hvad placeholderen %o i scanf gør i forhold til %d.
+
+// Svar: scanf er specificeret til at tage octogonal input når den bruger %o, vilket gør at den ignorerer de foranstående 0'er, og summerer i base8.
+// Den printer det ud i base10.

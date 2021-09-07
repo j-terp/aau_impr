@@ -19,3 +19,6 @@ int main(void) {
 // Kør det også med følgende input: 12 13 14.
 
 // Forklar hvad du oplever. Har du forstået reglerne? Leg gerne med variationer.
+
+// Svar: scanf er specificeret til at tage octogonal input når den bruger %o, vilket gør at den ignorerer de foranstående 0'er, og summerer i base8.
+// Den printer det ud i base8.

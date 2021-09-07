@@ -5,9 +5,9 @@
 
 int main(void) {
 
-  int sum1 =    10  +   11  +  12,
-      sum2  =  010 +   011 +  012,
-      sum3  = 0x10 +  0x11 + 0x12;
+  int sum1 =    10  +   11  +  12, // decimal --> 10 + 11 + 12 == 33
+      sum2  =  010 +   011 +  012, // octogonal --> 8 + 9 + 10 == 27
+      sum3  = 0x10 +  0x11 + 0x12; // hexadecimal --> 16 + 17 + 18 == 51
 
   printf("sum1 =  %d\n", sum1);
   printf("sum2 =  %d\n", sum2);
@@ -17,3 +17,6 @@ int main(void) {
 }
 
 // Oversæt og kør programmet. Forklar programmets opførsel.
+
+// Svar: Den adderer talk fra forskellige baser og sumerer i deres forskellige baser. Første er i base10, anden er i base8 og tredje er i base16.
+// Den printer det ud i base10.
