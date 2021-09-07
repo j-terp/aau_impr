@@ -21,6 +21,8 @@
     - [2-6-5.c](./2-6-5.c)
 - [x] **2.7** - Unitialized variables
     - [2-7.c](./2-7.c)
+- [x] **B.1** - Exercise 1 from the book
+    - [b-1.c](./b-1.c)
 - [x] **B.2** - Exercise 2 from the book
     - [b-2-1.c](./b-2-1.c)
     - [b-2-2.c](./b-2-2.c)
