@@ -1,3 +1,5 @@
+// Skreven af Jonas Nagstrup Terp
+// Filen kan findes på https://github.com/j-terp/impr/blob/main/assignments/assignment_2.c
 #include <stdio.h>
 
 // Konstanter for konvertering
