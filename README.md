@@ -20,7 +20,7 @@ Files for the course in Imperative Programming at AAU
     - [2-3.c](./lecture_02/2-3.c)
 - [x] **2.4** - Scan of doubles
     - [2-4.c](./lecture_02/2-4.c)
-- [ ] **2.5** - Weeks, days, hours, minutes and seconds [`assignment`](./assignments/assignment_2.c)
+- [x] **2.5** - Weeks, days, hours, minutes and seconds [`assignment`](./assignments/assignment_2.c)
     - [2-5.c](./lecture_02/2-5.c)
 - [x] **2.6** - Experiences with scanf
     - [2-6-1.c](./lecture_02/2-6-1.c)

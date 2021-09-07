@@ -2,7 +2,7 @@
 [< Back](../README.md)
 
 ---
-- [ ] **2.5** - Weeks, days, hours, minutes and seconds `assigment`
+- [x] **2.5** - Weeks, days, hours, minutes and seconds `assigment`
     - [2-5.c](./assignment_2.c)
 - [ ] **3.4** - Hours, minutes and seconds - again `assigment`
     - [3-4.c](./assignment_3.c)
