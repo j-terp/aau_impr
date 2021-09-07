@@ -30,6 +30,9 @@ Files for the course in Imperative Programming at AAU
     - [2-6-5.c](./lecture_02/2-6-5.c)
 - [x] **2.7** - Unitialized variables
     - [2-7.c](./lecture_02/2-7.c)
+- [x] **B.2** - Exercise 2 from the book
+    - [b-2-1.c](./b-2-1.c)
+    - [b-2-2.c](./b-2-2.c)
 ---
 ## [3. Selective Controlstructures](./lecture_03/README.md)
 - [ ] **3.1** - Inside or outside of a circle
