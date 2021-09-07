@@ -19,6 +19,6 @@
     - [2-6-3.c](./2-6-3.c)
     - [2-6-4.c](./2-6-4.c)
     - [2-6-5.c](./2-6-5.c)
-- [ ] **2.7** - Unitialized variables
+- [x] **2.7** - Unitialized variables
     - [2-7.c](./2-7.c)
 ---

@@ -28,7 +28,7 @@ Files for the course in Imperative Programming at AAU
     - [2-6-3.c](./lecture_02/2-6-3.c)
     - [2-6-4.c](./lecture_02/2-6-4.c)
     - [2-6-5.c](./lecture_02/2-6-5.c)
-- [ ] **2.7** - Unitialized variables
+- [x] **2.7** - Unitialized variables
     - [2-7.c](./lecture_02/2-7.c)
 ---
 ## [3. Selective Controlstructures](./lecture_03/README.md)
