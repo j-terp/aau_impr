@@ -37,7 +37,7 @@ Files for the course in Imperative Programming at AAU
     - [b-2-2.c](./b-2-2.c)
 - [x] **B.9** - Exercise 9 from the book
     - [b-9.c](./b-9.c)
-- [ ] **B.11** - Exercise 11 from the book
+- [x] **B.11** - Exercise 11 from the book
     - [b-11.c](./b-11.c)
 ---
 ## [3. Selective Controlstructures](./lecture_03/README.md)
