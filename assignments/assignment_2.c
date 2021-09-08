@@ -1,9 +1,8 @@
 // Programmør: Jonas Nagstrup Terp    Dato: 7 September, 2021
 // Instruktør: Kurt Nørmark           Klasse: IMPR AAL E21
 // 
-// Konvererer antal sekunder til en tydeligere form, med uger, fage, timer, minuter og sekunder.
+// Konverterer antal sekunder til en tydeligere form, med uger, fage, timer, minuter og sekunder.
 //
-// Filen kan findes på https://github.com/j-terp/impr/blob/main/assignments/assignment_2.c
 #include <stdio.h>
 
 // Konstanter for konvertering
