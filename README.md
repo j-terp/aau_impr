@@ -35,7 +35,7 @@ Files for the course in Imperative Programming at AAU
 - [x] **B.2** - Exercise 2 from the book
     - [b-2-1.c](./b-2-1.c)
     - [b-2-2.c](./b-2-2.c)
-- [ ] **B.9** - Exercise 9 from the book
+- [x] **B.9** - Exercise 9 from the book
     - [b-9.c](./b-9.c)
 - [ ] **B.11** - Exercise 11 from the book
     - [b-11.c](./b-11.c)
