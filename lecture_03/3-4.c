@@ -34,36 +34,36 @@ int main(void) {
     hours = seconds / SECONDS_PER_HOUR;     seconds = seconds % SECONDS_PER_HOUR;
     minutes = seconds / SECONDS_PER_MINUTE; seconds = seconds % SECONDS_PER_MINUTE;
 
-    if (hours == 0 && minutes == 0 && seconds == 0) {
-        printf("%d sekunder", seconds);
+    // Printer ud timer hvis det er større en 0
+    if (hours > 0) {
+        printf("%d time", hours);
+        if (hours > 1) {
+            printf("r");
+        }
+        // Hvis de andre variable er større end 0, så printes modsvarende bindeord
+        if (minutes != 0 && seconds != 0) {
+            printf(", ");
+        }
+        else if (minutes == 0 && seconds != 0) {
+            printf(" og ");
+        }
     }
-    else {
-        if (hours > 0) {
-            printf("%d time", hours);
-            if (hours > 1) {
-                printf("r");
-            }
-            if (minutes != 0 && seconds != 0) {
-                printf(", ");
-            }
-            else if (minutes == 0 && seconds != 0) {
-                printf(" og ");
-            }
+    // Printer ud minuter hvis det er større en 0
+    if (minutes > 0) {
+        printf("%d minut", minutes);
+        if (minutes > 1) {
+            printf("ter");
         }
-        if (minutes > 0) {
-            printf("%d minut", minutes);
-            if (minutes > 1) {
-                printf("ter");
-            }
-            if (seconds != 0) {
-                printf(" og ");
-            }
+        // Hvis de andre variable er større end 0, så printes modsvarende bindeord
+        if (seconds != 0) {
+            printf(" og ");
         }
-        if (seconds > 0) {
-            printf("%d sekund", seconds);
-            if (seconds > 1) {
-                printf("er");
-            }
+    }
+    // Printer ud sekunder hvis det er større en 0
+    if (seconds >= 0) {
+        printf("%d sekund", seconds);
+        if (seconds > 1 || seconds == 0) {
+            printf("er");
         }
     }
 
