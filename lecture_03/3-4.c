@@ -27,12 +27,16 @@
 int main(void) {
     int hours, minutes, seconds;
 
-    printf("Enter amount of seconds: ");scanf("%d", &seconds);
+    printf("Enter amount of seconds: ");
+    scanf("%d", &seconds);
     printf("%d sekunder svarer til ", seconds);
 
     // Konverterer antalet sekunder til formatet "timer, minuter og sekunder"
-    hours = seconds / SECONDS_PER_HOUR;     seconds = seconds % SECONDS_PER_HOUR;
-    minutes = seconds / SECONDS_PER_MINUTE; seconds = seconds % SECONDS_PER_MINUTE;
+    hours = seconds / SECONDS_PER_HOUR;
+    seconds = seconds % SECONDS_PER_HOUR;
+
+    minutes = seconds / SECONDS_PER_MINUTE;
+    seconds = seconds % SECONDS_PER_MINUTE;
 
     // Printer ud timer hvis det er større en 0
     if (hours > 0) {
@@ -44,7 +48,7 @@ int main(void) {
         if (minutes != 0 && seconds != 0) {
             printf(", ");
         }
-        else if (minutes == 0 && seconds != 0) {
+        else if ((minutes == 0 && seconds != 0) || (minutes != 0 && seconds == 0)) {
             printf(" og ");
         }
     }
@@ -60,12 +64,15 @@ int main(void) {
         }
     }
     // Printer ud sekunder hvis det er større en 0
-    if (seconds >= 0) {
+    if (seconds > 0) {
         printf("%d sekund", seconds);
         if (seconds > 1 || seconds == 0) {
             printf("er");
         }
     }
+
+    // Printer ud 0 hvis alle er 0
+    if (hours )
 
     return 0;
 }
