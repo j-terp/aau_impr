@@ -41,7 +41,7 @@ Files for the course in Imperative Programming at AAU
     - [b-11.c](./b-11.c)
 ---
 ## [3. Selective Controlstructures](./lecture_03/README.md)
-- [ ] **3.1** - Inside or outside of a circle
+- [x] **3.1** - Inside or outside of a circle
     - [3-1.c](./lecture_03/3-1.c)
 - [ ] **3.2** - Operator priorities in logical expressions
     - [3-2.c](./lecture_03/3-2.c)
