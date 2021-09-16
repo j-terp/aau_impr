@@ -54,7 +54,7 @@ Files for the course in Imperative Programming at AAU
     - [3-5-2.c](./lecture_03/3-5-2.c)
 - [x] **P 4.2-1** - Programming Exercise
     - [p-4-2_1.c](./lecture_03/p-4-2_1.c)
-- [ ] **SC 4.3-2** - Self Check Exercise
+- [x] **SC 4.3-2** - Self Check Exercise
     - [sc-4-3_2.c](./lecture_03/sc-4-3_2.c)
 - [x] **SC 4.3-5** - Self Check Exercise
     - [sc-4-3_5.c](./lecture_03/sc-4-3_5.c)
