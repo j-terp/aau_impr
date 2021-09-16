@@ -38,19 +38,19 @@ int main(void) {
         printf("negativ ");
     }
 
-    // Printer ud 0 hvis tiden er 0
+    // Printer 0 ud hvis tiden er 0
     if (seconds == 0) {
         printf("%d sekunder", seconds);
     }
     else {
-        // Konverterer antalet sekunder til formatet "timer, minuter og sekunder"
+        // Konverterer antallet sekunder til formatet "timer, minuter og sekunder"
         hours = seconds / SECONDS_PER_HOUR;
         seconds = seconds % SECONDS_PER_HOUR;
 
         minutes = seconds / SECONDS_PER_MINUTE;
         seconds = seconds % SECONDS_PER_MINUTE;
 
-        // Printer ud timer hvis det er større end 0, plural om større end 1
+        // Printer timer ud hvis det er større end 0, plural om større end 1
         if (hours > 0) {
             printf("%d time", hours);
             if (hours > 1) {
@@ -65,7 +65,7 @@ int main(void) {
             }
         }
 
-        // Printer ud minuter hvis det er større end 0, plural om større end 1
+        // Printer minuter ud hvis det er større end 0, plural om større end 1
         if (minutes > 0) {
             printf("%d minut", minutes);
             if (minutes > 1) {
