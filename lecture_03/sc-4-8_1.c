@@ -1,3 +1,4 @@
+// What will be printed by this carelessly constructed switch statement if the color value is 'R'?
 #include <stdio.h>
 #include <stdlib.h>
 
