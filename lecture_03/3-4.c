@@ -80,7 +80,7 @@ int main(void) {
         // Printer ud sekunder hvis det er større end 0, plural om større end 1
         if (seconds > 0) {
             printf("%d sekund", seconds);
-            if (seconds > 1 || seconds == 0) {
+            if (seconds > 1) {
                 printf("er");
             }
         }
