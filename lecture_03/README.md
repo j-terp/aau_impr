@@ -13,6 +13,8 @@
 - [x] **3.5** - Order of conditions in an if-else chain
     - [3-5-1.c](./3-5-1.c)
     - [3-5-2.c](./3-5-2.c)
+- [x] **P 4.2-1** - Programming Exercise
+    - [p-4-2_1.c](./p-4-2_1.c)
 - [x] **P 4.8-1** - Programming Exercise
     - [p-4-8_1.c](./p-4-8_1.c)
 - [x] **P 4.8-2** - Programming Exercise
