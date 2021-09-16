@@ -13,4 +13,6 @@
 - [x] **3.5** - Order of conditions in an if-else chain
     - [3-5-1.c](./3-5-1.c)
     - [3-5-2.c](./3-5-2.c)
+- [x] **E-4.2-2** - Self Check Exercise
+    - [3-3.c](./s-4-2-2.c)
 ---

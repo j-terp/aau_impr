@@ -52,6 +52,8 @@ Files for the course in Imperative Programming at AAU
 - [x] **3.5** - Order of conditions in an if-else chain
     - [3-5-1.c](./lecture_03/3-5-1.c)
     - [3-5-2.c](./lecture_03/3-5-2.c)
+- [x] **E-4.2-2** - Self Check Exercise
+    - [3-3.c](./s-4-2-2.c)
 ---
 ## [4. Iterative Controlstructures](./lecture_04/README.md)
 - [ ] **4.1** - Explanation of a program with a while loop and expression with assignments
