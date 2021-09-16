@@ -15,4 +15,6 @@
     - [3-5-2.c](./3-5-2.c)
 - [x] **SC 4.2-2** - Self Check Exercise
     - [sc-4-2_2.c](./sc-4-2_2.c)
+- [x] **SC 4.8-1** - Self Check Exercise
+    - [sc-4-2_2.c](./sc-4-8_1.c)
 ---

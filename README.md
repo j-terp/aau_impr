@@ -53,7 +53,9 @@ Files for the course in Imperative Programming at AAU
     - [3-5-1.c](./lecture_03/3-5-1.c)
     - [3-5-2.c](./lecture_03/3-5-2.c)
 - [x] **SC 4.2-2** - Self Check Exercise
-    - [sc-4-2_2.c](./sc-4-2_2.c)
+    - [sc-4-2_2.c](./lecture_03/sc-4-2_2.c)
+- [x] **SC 4.8-1** - Self Check Exercise
+    - [sc-4-2_2.c](./lecture_03/sc-4-8_1.c)
 ---
 ## [4. Iterative Controlstructures](./lecture_04/README.md)
 - [ ] **4.1** - Explanation of a program with a while loop and expression with assignments
