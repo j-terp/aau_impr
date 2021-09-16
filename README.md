@@ -30,7 +30,9 @@ Files for the course in Imperative Programming at AAU
     - [2-6-5.c](./lecture_02/2-6-5.c)
 - [x] **2.7** - Unitialized variables
     - [2-7.c](./lecture_02/2-7.c)
-- [x] **SC 2.3-2** - Exercise 2 from the book
+- [x] **SC 2.3-1** - Self Check exercise 1
+    - [sc-2-3_1.c](./lecture_02/sc-2-3_1.c)
+- [x] **SC 2.3-2** - Self Chech exercise 2
     - [sc-2-3_2-a.c](./lecture_02/sc-2-3_2-a.c)
     - [sc-2-3_2-b.c](./lecture_02/sc-2-3_2-b.c)
 - [x] **RP 2.9** - Review Programming exercise 9

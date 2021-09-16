@@ -21,6 +21,8 @@
     - [2-6-5.c](./2-6-5.c)
 - [x] **2.7** - Unitialized variables
     - [2-7.c](./2-7.c)
+- [x] **SC 2.3-1** - Self Sheck exercise 1 from the book
+    - [sc-2-3_1.c](./sc-2-3_1.c)
 - [x] **SC 2.3-2** - Exercise 2 from the book
     - [sc-2-3_2-a.c](./sc-2-3_2-a.c)
     - [sc-2-3_2-b.c](./sc-2-3_2-b.c)
