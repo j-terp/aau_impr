@@ -3,31 +3,31 @@
 
 ---
 - [x] **2.1** - A program that adds three digits
-    - [2-1-1.c](./2-1-1.c)
-    - [2-1-2.c](./2-1-2.c)
-    - [2-1-3.c](./2-1-3.c)
-    - [2-1-4.c](./2-1-4.c)
+    - [2_1a.c](./2_1a.c)
+    - [2_1b.c](./2_1b.c)
+    - [2_1c.c](./2_1c.c)
+    - [2_1d.c](./2_1d.c)
 - [x] **2.3** - Increment and Decrement operators
-    - [2-3.c](./2-3.c)
+    - [2_3.c](./2_3.c)
 - [x] **2.4** - Scan of doubles
-    - [2-4.c](./2-4.c)
+    - [2_4.c](./2_4.c)
 - [x] **2.5** - Weeks, days, hours, minutes and seconds [`assignment`](../assignments/assignment_2.c)
-    - [2-5.c](./2-5.c)
+    - [2_5.c](./2_5.c)
 - [x] **2.6** - Experiences with scanf
-    - [2-6-1.c](./2-6-1.c)
-    - [2-6-2.c](./2-6-2.c)
-    - [2-6-3.c](./2-6-3.c)
-    - [2-6-4.c](./2-6-4.c)
-    - [2-6-5.c](./2-6-5.c)
+    - [2_6a.c](./2_6a.c)
+    - [2_6b.c](./2_6b.c)
+    - [2_6c.c](./2_6c.c)
+    - [2_6d.c](./2_6d.c)
+    - [2_6e.c](./2_6e.c)
 - [x] **2.7** - Unitialized variables
-    - [2-7.c](./2-7.c)
-- [x] **SC 2.3-1** - Self Sheck exercise 1
-    - [sc-2-3_1.c](./sc-2-3_1.c)
-- [x] **P 2.3-2** - Programming exercise 2
-    - [p-2-3_2-a.c](./sc-2-3_2-a.c)
-    - [p-2-3_2-b.c](./sc-2-3_2-b.c)
+    - [2_7.c](./2_7.c)
+- [x] **P 2.3.2** - Programming exercise 2
+    - [p2-3_2-a.c](./p2-3_2-a.c)
+    - [p2-3_2-b.c](./p2-3_2-b.c)
 - [x] **RP 2.9** - Review Programming exercise 9
-    - [rp-2_9.c](./rp-2_9.c)
+    - [rp2_9.c](./rp2_9.c)
 - [x] **RP 2.11** - Review Programming exercise 11
-    - [rp-2_11.c](./rp-2_11.c)
+    - [rp2_11.c](./rp2_11.c)
+- [x] **SC 2.3-1** - Self Sheck exercise 1
+    - [sc2-3_1.c](./sc2-3_1.c)
 ---
