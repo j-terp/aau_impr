@@ -30,8 +30,6 @@ Files for the course in Imperative Programming at AAU
     - [2-6-5.c](./lecture_02/2-6-5.c)
 - [x] **2.7** - Unitialized variables
     - [2-7.c](./lecture_02/2-7.c)
-- [x] **B.1** - Exercise 1 from the book
-    - [b-1.c](./b-1.c)
 - [x] **SC 2.3-2** - Exercise 2 from the book
     - [sc-2-3_2-a.c](./lecture_02/sc-2-3_2-a.c)
     - [sc-2-3_2-b.c](./lecture_02/sc-2-3_2-b.c)
