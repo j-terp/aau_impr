@@ -43,7 +43,7 @@ Files for the course in Imperative Programming at AAU
 ## [3. Selective Controlstructures](./lecture_03/README.md)
 - [x] **3.1** - Inside or outside of a circle
     - [3-1.c](./lecture_03/3-1.c)
-- [ ] **3.2** - Operator priorities in logical expressions
+- [x] **3.2** - Operator priorities in logical expressions
     - [3-2.c](./lecture_03/3-2.c)
 - [ ] **3.3** - pH values
     - [3-3.c](./lecture_03/3-3.c)

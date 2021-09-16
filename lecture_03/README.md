@@ -4,7 +4,7 @@
 ---
 - [x] **3.1** - Inside or outside of a circle
     - [3-1.c](./3-1.c)
-- [ ] **3.2** - Operator priorities in logical expressions
+- [x] **3.2** - Operator priorities in logical expressions
     - [3-2.c](./3-2.c)
 - [ ] **3.3** - pH values
     - [3-3.c](./3-3.c)
