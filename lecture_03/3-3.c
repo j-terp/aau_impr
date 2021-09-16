@@ -9,15 +9,17 @@
 int main(void){
     int ph;
     if (ph <= 2)
-        printf("Very acidic");  
+        printf("Very acidic"); /* pH <= 2 */
     else if (ph < 7) 
-        printf("Acidic");       
+        printf("Acidic"); /* 2 < pH < 7 */
     else if (ph == 7)
-        printf("Neutral");      
+        printf("Neutral"); /* pH == 7 */
     else if (ph < 12)
-        printf("Alkaline");     
+        printf("Alkaline"); /* 7 < pH < 12 */
     else 
-        printf("Very alkaline");
+        printf("Very alkaline"); /* 12 <= pH */
 }
 
 // Er ovenstående if-else kæde ækvivalent med din løsning på bogens opgave? Som en hjælp til afgørelsen, skriv en kommentar efter hvert printf kald som viser præcist, for hvilket interval pH værdier udskriften er gældende. Du skal være meget omhyggelig og systematisk - ellers laver du let en fejl.
+
+// Svar: Ja, den er ækvivalent fordi den starter fra den ene ende af. Den tidligere løsning starter fra midten af, hvilket deler den nestede if statement blev delt i 2, mens denne har det hele i en.
