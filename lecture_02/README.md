@@ -23,11 +23,11 @@
     - [2-7.c](./2-7.c)
 - [x] **B.1** - Exercise 1 from the book
     - [b-1.c](./b-1.c)
-- [x] **B.2** - Exercise 2 from the book
-    - [b-2-1.c](./b-2-1.c)
-    - [b-2-2.c](./b-2-2.c)
-- [x] **B.9** - Exercise 9 from the book
-    - [b-9.c](./b-9.c)
-- [x] **B.11** - Exercise 11 from the book
-    - [b-11.c](./b-11.c)
+- [x] **SC 2.3-2** - Exercise 2 from the book
+    - [sc-2-3_2-a.c](./sc-2-3_2-a.c)
+    - [sc-2-3_2-b.c](./sc-2-3_2-b.c)
+- [x] **RP 2.9** - Review Programming exercise 9
+    - [rp-2_9.c](./rp-2_9.c)
+- [x] **RP 2.11** - Review Programming exercise 11
+    - [rp-2_11.c](./rp-2_11.c)
 ---
