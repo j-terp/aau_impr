@@ -58,6 +58,8 @@ Files for the course in Imperative Programming at AAU
     - [p4-8_1.c](./lecture_03/p4-8_1.c)
 - [x] **P 4.8-2** - Programming Exercise
     - [p4-8_2.c](./lecture_03/p4-8_2.c)
+- [x] **RP 4.6** - Review Programming Exercise
+    - [rp4_6.c](./lecture_03/rp4_6.c)
 - [x] **SC 4.2-2** - Self Check Exercise
     - [sc4-2_2.c](./lecture_03/sc4-2_2.c)
 - [x] **SC 4.3-2** - Self Check Exercise
