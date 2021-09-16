@@ -34,3 +34,5 @@ int main(void) {
 }
 
 // Ændrer dette betydningen af programmet? Uddrag en generel tommelfingerregel for ordningen af de logiske udtryk i en if-else kæde.
+
+// Svar: Karakteren bliver enten 3 eller 0, fordi den først checker om procenten er større eller lige med 10, hvor det højere sammenligninger kun bliver udført hvis den ikke er. Dermed kommer den aldrig forbi den første if-statement, eller går hele vejen ned til den siste else. Hvis man skal starte med at sammenligne de mindste værdier, så skal man køre nestede if-statements.
