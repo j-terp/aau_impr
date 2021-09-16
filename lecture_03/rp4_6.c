@@ -8,7 +8,7 @@ int main(void) {
     printf("Input the x and y coordinates of a point> ");
     scanf(" %f %f", &x, &y);
     
-    printf("The point (%.1f;%.1f) lies ", x, y);
+    printf("(%.1f;%.1f) is ", x, y);
     
     if (x == 0.0 && y == 0.0) {
         printf("on the origo");
@@ -19,18 +19,18 @@ int main(void) {
     else {
         if (y > 0.0) {
             if (x > 0.0) {
-                printf("in QI");
+                printf("in quadrant I");
             }
             else /* (x < 0) */ { 
-                printf("in QII");
+                printf("in quadrant II");
             }
         }
         else /* (y < 0) */ {
             if (x > 0.0) {
-                printf("in QIII");
+                printf("in quadrant III");
             }
             else /* (x < 0) */ {
-                printf("in QIV");
+                printf("in quadrant IV");
             }
         }
     }
