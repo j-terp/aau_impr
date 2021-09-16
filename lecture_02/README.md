@@ -21,11 +21,11 @@
     - [2-6-5.c](./2-6-5.c)
 - [x] **2.7** - Unitialized variables
     - [2-7.c](./2-7.c)
-- [x] **SC 2.3-1** - Self Sheck exercise 1 from the book
+- [x] **SC 2.3-1** - Self Sheck exercise 1
     - [sc-2-3_1.c](./sc-2-3_1.c)
-- [x] **SC 2.3-2** - Exercise 2 from the book
-    - [sc-2-3_2-a.c](./sc-2-3_2-a.c)
-    - [sc-2-3_2-b.c](./sc-2-3_2-b.c)
+- [x] **P 2.3-2** - Programming exercise 2
+    - [p-2-3_2-a.c](./sc-2-3_2-a.c)
+    - [p-2-3_2-b.c](./sc-2-3_2-b.c)
 - [x] **RP 2.9** - Review Programming exercise 9
     - [rp-2_9.c](./rp-2_9.c)
 - [x] **RP 2.11** - Review Programming exercise 11

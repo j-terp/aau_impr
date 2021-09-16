@@ -32,9 +32,9 @@ Files for the course in Imperative Programming at AAU
     - [2-7.c](./lecture_02/2-7.c)
 - [x] **SC 2.3-1** - Self Check exercise 1
     - [sc-2-3_1.c](./lecture_02/sc-2-3_1.c)
-- [x] **SC 2.3-2** - Self Chech exercise 2
-    - [sc-2-3_2-a.c](./lecture_02/sc-2-3_2-a.c)
-    - [sc-2-3_2-b.c](./lecture_02/sc-2-3_2-b.c)
+- [x] **P 2.3-2** - Programming exercise 2
+    - [p-2-3_2-a.c](./lecture_02/sc-2-3_2-a.c)
+    - [p-2-3_2-b.c](./lecture_02/sc-2-3_2-b.c)
 - [x] **RP 2.9** - Review Programming exercise 9
     - [rp-2_9.c](./lecture_02/rp-2_9.c)
 - [x] **RP 2.11** - Review Programming exercise 11
