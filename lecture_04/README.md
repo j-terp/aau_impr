@@ -10,7 +10,7 @@
     - [4_3.c](./4_3.c)
 - [ ] **4.5** - A simplified edition of Euclids algorithm
     - [4_5.c](./4_5.c)
-- [ ] **4.6** - Straightforward programming of biggest common divisor [`assignment`](../assignments/assignment_4.c)
+- [x] **4.6** - Straightforward programming of biggest common divisor [`assignment`](../assignments/assignment_4.c)
     - [4_6.c](./4_6.c)
 - [x] **P 5.4-2** - Programming Exercise
     - [p5-4_2.c](./p5-4_2.c)
