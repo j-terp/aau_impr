@@ -1,4 +1,4 @@
-// Programmør: Jonas Nagstrup Terp    Dato: 7 September, 2021
+// Programmør: Jonas Nagstrup Terp    Dato: 20 September, 2021
 // Instruktør: Kurt Nørmark           Klasse: IMPR AAL E21
 // 
 // Konverterer antal sekunder til en tydeligere form med korrekt numerus, med timer, minuter og sekunder.
