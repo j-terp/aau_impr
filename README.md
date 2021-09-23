@@ -95,16 +95,22 @@ Files for the course in Imperative Programming at AAU
     - [4_5.c](./lecture_04/4_5.c)
 - [x] **4.6** - Straightforward programming of biggest common divisor [`assignment`](../assignments/assignment_4.c)
     - [4_6.c](./lecture_04/4_6.c)
+- [x] **P 5.3-1** - Programming Exercise
+    - [p5-3_1.c](./lecture_04/p5-3_1.c)
 - [x] **P 5.4-2** - Programming Exercise
     - [p5-4_2.c](./lecture_04/p5-4_2.c)
-- [x] **SC 5.3-1** - Self Check Exercise
-    - [p5-3_1.c](./lecture_04/p5-3_1.c)
-- [x] **SC 5.3-1** - Self Check Exercise
-    - [p5-3_3.c](./lecture_04/p5-3_3.c)
-- [x] **SC 5.4-6** - Self Check Exercise
-    - [p5-4_6.c](./lecture_04/p5-4_6.c)
-- [x] **SC 5.7-2** - Self Check Exercise
+- [x] **P 5.5-1** - Programming Exercise
+    - [p5-5_1.c](./lecture_04/p5-5_1.c)
+- [x] **P 5.7-2** - Programming Exercise
     - [p5-7_2.c](./lecture_04/p5-7_2.c)
+- [x] **SC 5.3-1** - Self Check Exercise
+    - [sc5-3_1.c](./lecture_04/sc5-3_1.c)
+- [x] **SC 5.3-3** - Self Check Exercise
+    - [sc5-3_3.c](./lecture_04/sc5-3_3.c)
+- [x] **SC 5.4-6** - Self Check Exercise
+    - [sc5-4_6.c](./lecture_04/sc5-4_6.c)
+- [x] **SC 5.7-2** - Self Check Exercise
+    - [sc5-7_2.c](./lecture_04/sc5-7_2.c)
 ---
 ## [5. Functions and top-down programming](./lecture_05/README.md)
 - [ ] **5.1** - Step by step refinement of solveQuadraticEquation [`assignment`](../assignments/assignment_5.c)

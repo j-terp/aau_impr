@@ -1,7 +1,7 @@
 // Denne opgaver tager udgangspunkt i følgende udgave af Euclids algoritme, som vi har studeret nøje i denne lektion:
 
 /* General condition loop - Euclid again */
-
+/*
 #include <stdio.h>
 
 int main(void) {
@@ -23,7 +23,7 @@ int main(void) {
   
   return 0;
 }   
-
+*/
 // Hvad sker der hvis vi dropper ombytningen af i og j, og således risikerer at small bliver større end large i while-løkken? Her er en sådan version af programmet:
 
 #include <stdio.h>
@@ -47,3 +47,5 @@ int main(void) {
 }   
 
 // Virker dette - hvorfor, eller hvorfor ikke?
+
+// Svar: Det vriker, fordi den første beregning ikke kan gå op nogen gange, vilket gør i % j == i, hvilket gør at resterende del af løkken bytter rundt på i og j. Derfra bliver i den større og j den mindre. Uden sortering bliver der dermed kørt en extra gang i løkken istedet for.
