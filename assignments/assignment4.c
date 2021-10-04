@@ -5,12 +5,7 @@
 int gcd_euclid(int i, int j) {
   int remainder, done = (!j) ? 1 : 0;
   // Calculation
-  while (!done) {
-    remainder = i % j;
-    i = j;
-    j = remainder;
-    done = (j <= 0) ? 1 : 0;
-  }
+  while (!done) {remainder = i % j, i = j, j = remainder, done = (j <= 0) ? 1 : 0;}
   return i;
 }
 
