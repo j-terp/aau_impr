@@ -20,10 +20,10 @@
 // I din main funktion skal du - ganske enkelt - gennemløbe så mange positive heltal, som det er nødvendigt, for at finde de første n primtal.
 
 // For at få alt dette til at virke skal du lave følgende primes.h fil:
-
-    /* Return if i is a prime number */
+/*
+    // Return if i is a prime number
     int is_prime(int i);
-
+*/
 // Endvidere skal du placere følgende programlinier i filen primes.c, og oversætte denne c fil separat.
 
 #include "primes.h"

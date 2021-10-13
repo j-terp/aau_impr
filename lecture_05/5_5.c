@@ -15,3 +15,18 @@ int isLeapYear(int year){
 // Programmer en ny skudårsfunktion med brug af && og ||, og uden brug af if-else og uden brug af betingede udtryk.
 
 // Kald begge skudårsfunktioner for alle årstal mellem år 1900 og år 2100. Giver de to funktioner samme resultat på alle årstal?
+
+int leapYear(int year) {
+  return !(year % 4) && (year % 100) || !(year % 400);
+}
+
+int main(void) {
+  int n;
+  // Only takes positive integers
+  do {
+  printf("Input positive integer> ");
+  scanf("%d", &n);
+  } while (n < 1);
+  printf("1: "), isLeapYear(n) ? print("true\n"): printf("false\n");
+  printf("2: "), leapYear(n) ? print("true\n"): printf("false\n");
+}
