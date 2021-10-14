@@ -24,6 +24,7 @@
 #include <math.h>
 
 void solveQuadraticEquation(double, double, double);
+double calc_disc(double, double, double), calc_root(int, double, double, double);
 
 int main(void) {
   double a = 1.0, b = -8.0, c = 15.0,
@@ -37,28 +38,36 @@ int main(void) {
   solveQuadraticEquation(d - 1, -e, 7 * f + 1); 
 
   /* Third call - coefficents are entered by user outside solveQuadraticEquation */
+  do {
   printf("Enter coeficients a, b, and c: ");
   scanf("%lf %lf %lf", &g, &h, &i);
-  solveQuadraticEquation(g, h, i);  
+  solveQuadraticEquation(g, h, i);
+  } while (g == 0 && h == 0 && i == 0);
 
   return 0;
 }
 
 /* Prints roots of the quadratic equation a * x*x + b * x + c = 0 */
 void solveQuadraticEquation(double a, double b, double c){
-  double discriminant = b * b - 4 * a * c,
-         root1,
-         root2;
+  double discriminant = calc_disc(a, b, c);
   
-  if (discriminant < 0)
+  if (discriminant < 0) 
     printf("No roots\n");
-  else if (discriminant == 0){
-    root1 = -b/(2*a);
-    printf("One root: %f\n", root1);
-  }
-  else {
-    root1 = (-b + sqrt(discriminant))/(2*a);
-    root2 = (-b - sqrt(discriminant))/(2*a);
-    printf("Two roots: %f and %f\n", root1, root2);
-  }
+  else if (discriminant == 0)
+    printf("One root: %f\n", calc_root(0, a, b, discriminant));
+  else
+    printf("Two roots: %f and %f\n", calc_root(1, a, b, discriminant), calc_root(-1, a, b, discriminant));
+}
+
+double calc_disc(double a, double b, double c) {
+  return b * b - 4 * a * c;
+}
+
+double calc_root(int x, double a, double b, double d) {
+  if (x == 1)
+    return (-b + sqrt(d))/(2*a);
+  else if (x == -1)
+    return (-b - sqrt(d))/(2*a);
+  else
+    return -b/(2*a);
 }
