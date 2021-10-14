@@ -44,14 +44,18 @@ void solveQuadraticEquation(double a, double b, double c){
   print_root2(discriminant, a, b);
 }
 
+// Calculates discriminant
 double calc_disc(double a, double b, double c) {
   return b * b - 4 * a * c;
 }
 
+// Prints first root if there is one
 void print_root1(double d, double a, double b) {
   if (d >= 0)
     printf("%f ", ((d == 0) ? -b/(2*a) : (-b + sqrt(d))/(2*a)));
 }
+
+// Prints second root if there is one
 void print_root2(double d, double a, double b) {
   if (d > 0)
     printf(" and %f", (-b - sqrt(d))/(2*a));
