@@ -31,7 +31,7 @@ Files for the course in Imperative Programming at AAU
     - [2_3.c](./lecture_02/2_3.c)
 - [x] **2.4** - Scan of doubles
     - [2_4.c](./lecture_02/2_4.c)
-- [x] **2.5** - Weeks, days, hours, minutes and seconds [`assignment`](../assignments/assignment_2.c)
+- [x] **2.5** - Weeks, days, hours, minutes and seconds [`assignment`](./assignments/assignment_2.c)
     - [2_5.c](./lecture_02/2_5.c)
 - [x] **2.6** - Experiences with scanf
     - [2_6a.c](./lecture_02/2_6a.c)
@@ -58,7 +58,7 @@ Files for the course in Imperative Programming at AAU
     - [3_2.c](./lecture_03/3_2.c)
 - [x] **3.3** - pH values
     - [3_3.c](./lecture_03/3_3.c)
-- [x] **3.4** - Hours, minutes and seconds - again [`assignment`](../assignments/assignment_3.c)
+- [x] **3.4** - Hours, minutes and seconds - again [`assignment`](./assignments/assignment_3.c)
     - [3_4.c](./lecture_03/3_4.c)
 - [x] **3.5** - Order of conditions in an if-else chain
     - [3_5a.c](./lecture_03/3-5a.c)
@@ -85,15 +85,15 @@ Files for the course in Imperative Programming at AAU
     - [sc4-8_2.c](./lecture_03/sc4-8_2.c)
 ---
 ## [4. Iterative Controlstructures](./lecture_04/README.md)
-- [ ] **4.1** - Explanation of a program with a while loop and expression with assignments
+- [x] **4.1** - Explanation of a program with a while loop and expression with assignments
     - [4_1.c](./lecture_04/4_1.c)
-- [ ] **4.2** - Sum of numbers in an interval which are divisible with the same number
+- [x] **4.2** - Sum of numbers in an interval which are divisible with the same number
     - [4_2.c](./lecture_04/4_2.c)
 - [x] **4.3** - Another sum of numbers in an interval
     - [4_3.c](./lecture_04/4_3.c)
-- [ ] **4.5** - A simplified edition of Euclids algorithm
+- [x] **4.5** - A simplified edition of Euclids algorithm
     - [4_5.c](./lecture_04/4_5.c)
-- [x] **4.6** - Straightforward programming of biggest common divisor [`assignment`](../assignments/assignment_4.c)
+- [x] **4.6** - Straightforward programming of biggest common divisor [`assignment`](./assignments/assignment_4.c)
     - [4_6.c](./lecture_04/4_6.c)
 - [x] **P 5.3-1** - Programming Exercise
     - [p5-3_1.c](./lecture_04/p5-3_1.c)
@@ -113,19 +113,25 @@ Files for the course in Imperative Programming at AAU
     - [sc5-7_2.c](./lecture_04/sc5-7_2.c)
 ---
 ## [5. Functions and top-down programming](./lecture_05/README.md)
-- [ ] **5.1** - Step by step refinement of solveQuadraticEquation [`assignment`](../assignments/assignment_5.c)
-    - [5_1.c](./lecture_05/5_1.c)
-- [ ] **5.2** - Find the first n primes
-    - [5_2.c](./lecture_05/5_2.c)
-    - [primes.h](./lecture_05/primes.h)
-- [ ] **5.3** - Goldbachs assumption
-    - [5_3.c](./lecture_05/5_3.c)
-- [ ] **5.5** - The leap year function
-    - [5_5.c](./lecture_05/5_5.c)
+- [x] **5.1** - Step by step refinement of solveQuadraticEquation [`assignment`](./assignments/assignment5.c)
+    - [5_1.c](./5_1.c)
+- [x] **5.2** - Find the first n primes
+    - [5_2.c](./5_2.c)
+    - [primes.c](./primes.c)
+    - [primes.h](./primes.h)
+    - [test-primes.c](./test-primes.c)
+- [x] **5.3** - Goldbachs assumption
+    - [5_3.c](./5_3.c)
+- [x] **5.5** - The leap year function
+    - [5_5.c](./5_5.c)
 - [ ] **5.6** - Programming a squareroot function
-    - [5_6.c](./lecture_05/5_6.c)
-- [ ] **5.7** - New functions in old exercises
-    - [5_7.c](./lecture_05/5_7.c)
+    - [5_6.c](./5_6.c)
+- [x] **5.7** - New functions in old exercises
+    - [5_7.c](./5_7.c)
+- [x] **P 3.5-2** - Programming Exercise
+    - [p3-5_2.c](./p3-5_2.c)
+- [x] **SC 3.2-1** - Self Check Exercise
+    - [sc3-2_1.c](./sc3-2_1.c)
 ---
 ## [6. Functions and aprameters](./lecture_06/README.md)
 - [ ] **6.1** - Celsius to Fahrenheit with output parameters

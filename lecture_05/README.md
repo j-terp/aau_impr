@@ -2,7 +2,7 @@
 [< Back](../README.md)
 
 ---
-- [x] **5.1** - Step by step refinement of solveQuadraticEquation [`assignment`](../assignments/assignment_5.c)
+- [x] **5.1** - Step by step refinement of solveQuadraticEquation [`assignment`](../assignments/assignment5.c)
     - [5_1.c](./5_1.c)
 - [x] **5.2** - Find the first n primes
     - [5_2.c](./5_2.c)
