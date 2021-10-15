@@ -4,7 +4,7 @@
 ---
 - [ ] **6.1** - Celsius to Fahrenheit with output parameters
     - [6_1.c](./6_1.c)
-- [ ] **6.2** - Hours, minutes and seconds - again, again
+- [x] **6.2** - Hours, minutes and seconds - again, again
     - [6_2.c](./6_2.c)
 - [ ] **6.3** - Banknote delivery from an ATM
     - [6_3.c](./6_3.c)

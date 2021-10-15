@@ -136,7 +136,7 @@ Files for the course in Imperative Programming at AAU
 ## [6. Functions and aprameters](./lecture_06/README.md)
 - [ ] **6.1** - Celsius to Fahrenheit with output parameters
     - [6_1.c](./lecture_06/6_1.c)
-- [ ] **6.2** - Hours, minutes and seconds - again, again
+- [x] **6.2** - Hours, minutes and seconds - again, again
     - [6_2.c](./lecture_06/6_2.c)
 - [ ] **6.3** - Banknote delivery from an ATM
     - [6_3.c](./lecture_06/6_3.c)
