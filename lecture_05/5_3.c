@@ -31,16 +31,6 @@ int main(void) {
   (start % 2 == 1) ? start++ : 0; 
   (limit % 2 == 1) ? limit++ : 0;
   n = start;
-  
-  printf("[  0%%] ");
-  printf("[");
-  for     (j = 0; j < 25; j++) {printf(" ");}
-  printf("]\n");
-
-  printf("[  0%%] ");
-  printf("[");
-  for     (j = 0; j < 25; j++) {printf(" ");}
-  printf("]\n");
 
   // Checks for matches
   while (n <= limit && !done) {
@@ -55,19 +45,6 @@ int main(void) {
       printf("\n[%d] ", n);
       exceptions++;
       done = 1;
-    }
-    n += 2;
-    if ((n - start) / ((limit - start) / 100) > i) {
-      printf("[%3.d%%] ", (i + 1));
-      printf("[");
-      for     (j = 0; j < (i / 4); j++) {printf("#");}
-      if      ((i + 1) % 4 == 0) {printf("#");}
-      else if ((i + 1) % 4 == 3) {printf("=");}
-      else if ((i + 1) % 4 == 2) {printf("~");}
-      else if ((i + 1) % 4 == 1) {printf("-");}
-      for     (j = 0; j < (24 - (i / 4)); j++) {printf(" ");}
-      printf("]\n");
-      i++;
     }
   }
   printf("Done\nExceptions: %d", exceptions);
