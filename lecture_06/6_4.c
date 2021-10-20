@@ -16,6 +16,7 @@ double multi_apply(double (*f) (double), int n, double s) {
   for (n; n > 0; n--) {
     s = (*f) (s);
   }
+  return s;
 }
 
 double half(double x) {
