@@ -12,9 +12,9 @@
   - [assignment4.c](./assignment4.c)
 - [x] **Assignment 5** - [Step by step refinement of solveQuadraticEquation](./assignment5.md) [`exercise`](../lecture_05/5_1.c)
   - [assignment5.c](./assignment5.c)
-- [ ] **Assignment 10** - [Palindromes](./assignment11.md) [`exercise`](../lecture_10/11_2.c)
+- [ ] **Assignment 10** - [Palindromes](./assignment10.md) [`exercise`](../lecture_10/11_2.c)
   - [](./assignment_10.c)
-- [ ] **Assignment 11** - [Playing Cards](./assignment12.md) [`exercise`](../lecture_11/12_s4.c)
+- [ ] **Assignment 11** - [Playing Cards](./assignment11.md) [`exercise`](../lecture_11/12_s4.c)
   - [](./assingment_11.c)
 
 ---
