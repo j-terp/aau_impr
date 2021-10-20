@@ -6,8 +6,7 @@ Files for the course in Imperative Programming at AAU
 
 ## [Exams](./exams/README.md)
 
-- [x] **Exam 1** - Commandline Calculator
-  - Instructions: [exam1_inst.md](./exams/exam1_inst.md)
+- [x] **Exam 1** - [Commandline Calculator](./exams/exam1_inst.md)
 
 ---
 
