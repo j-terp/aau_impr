@@ -9,11 +9,14 @@ Skriv et program der modellerer en simpel regnemaskine. Regnemaskinen holder sty
 
 Unære operationer (som står foran sin operand, og derfor er prefix) udfører en beregning på akkumulatoren:
 
-> operator akkumulator
+- operator
+- akkumulator
 
 Binære operationer udfører en beregning på akkulatoren og en ekstra operand på følgende måde:
 
-> akkumulator operator højre_opperand
+- akkumulator
+- operator
+- højre_opperand
 
 I begge tilfælde lægges værdien af udtrykket tilbage i akkumulatoren.
 
