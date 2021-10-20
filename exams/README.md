@@ -4,6 +4,6 @@
 
 ---
 
-- [x] [**Exam 1** - Commandline Calculator](./exam1_inst.md)
+- [x] **Exam 1** - [Commandline Calculator](./exam1_inst.md)
 
 ---
