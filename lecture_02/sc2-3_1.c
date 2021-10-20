@@ -8,5 +8,4 @@ int main(void) {
     m = m + 5;
     n = 3 * n;
     printf("m = %d\nn = %d\n", m, n);
-    // Outputs: m = 10, n = 21
 }
