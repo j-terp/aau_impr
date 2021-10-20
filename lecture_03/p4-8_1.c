@@ -1,6 +1,3 @@
-// Write a switch statement that assigns to the variable lumens the expected brightness of an incandescent light bulb whose wattage has been stored in watts. Use the table in the book.
-// Assign -1 to lumens if the value of watts is not in the table
-
 #include <stdlib.h>
 #include <stdio.h>
 

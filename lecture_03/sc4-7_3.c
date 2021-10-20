@@ -1,4 +1,3 @@
-// Write a nested if statement for the decision diagrammed in the accompanying flowchart. Use a multiple-alternative if for intermediate decisions where possible.
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,4 +1,3 @@
-// What will be printed by this carelessly constructed switch statement if the color value is 'R'?
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,5 +14,3 @@ int main(void) {
 
     return EXIT_SUCCESS;
 }
-
-// All cases below 'R' is executed, meaning it'll start at the case which it corresponds to.

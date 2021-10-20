@@ -1,24 +1,3 @@
-// Denne opgave er en fortsættelse af en tidligere opgave, hvor vi konverterede hele sekunder til uger, dage, timer, minutter og sekunder efter sædvanlige principper. I denne opgave begrænser vi os til timer, minutter og sekunder (vi dropper altså interessen for uger og dage).
-
-// Målet med opgaven er at træne dig i at bruge af if-else kæder, if'er i sekvens og betingede udtryk (med ?: operatoren). Målet er endvidere at opdele et lidt større program i mindre og markerede dele inden for main.
-
-// Det er sjusket og utilfredsstillende når det oprindelige program giver output som dette:
-
-//     75 sekunder svarer til 0 timer, 1 minutter og 15 sekunder
-//     3700 sekunder svarer til 1 timer, 1 minutter og 40 sekunder
-//     55 sekunder svarer til 0 timer, 0 minutter og 55 sekunder
-//     3661 sekunder svarer til 1 timer, 1 minutter og 1 sekunder
-
-// Vi ønsker at blive fri for '0 timer' og '0 minutter'. Endvidere ønsker vi korrekt angivelse af ental og flertal. Derfor foretrækker vi et program der giver følgende output:
-
-//     75 sekunder svarer til 1 minut og 15 sekunder
-//     3700 sekunder svarer til 1 time, 1 minut og 40 sekunder
-//     55 sekunder svarer til 55 sekunder
-//     3661 sekunder svarer til 1 time, 1 minut og 1 sekund
-
-// Skriv en ny version af programmet, som opfylder disse krav.
-
-// Overvej ombyggelig brugen af if-else kæder kontra sekvenser af if kontra betingede udtryk med brug af den ternære operator ?:
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -85,6 +64,5 @@ int main(void) {
             }
         }
     }
-
     return EXIT_SUCCESS;
 }

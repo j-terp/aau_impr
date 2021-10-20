@@ -1,5 +1,3 @@
-// Write a nested if statement equivalent to the switch statement described in the first programming exercise (P 4.8-1)
-
 #include <stdlib.h>
 #include <stdio.h>
 

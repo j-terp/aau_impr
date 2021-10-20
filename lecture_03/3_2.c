@@ -1,7 +1,3 @@
-// Denne opgaver giver dig træning i at anvende operator prioritering i logiske udtryk. Det er ikke nødvendigt at beregne værdierne af udtrykkene. Lad blot computeren foretage de faktiske beregninger.
-
-// Se på følgende C program:
-
 #include <stdio.h>
 
 int main(void){
@@ -21,7 +17,3 @@ int main(void){
 
   return 0;
 }
-
-// Sæt parenteres i de fire sammensatte, logiske udtryk, hvis værdier assignes til variablene res1, ..., res4. Ved at sætte parenteser bliver det klart, hvorledes de sammensatte udtryk beregnes. Vær sikker på at du anvender operator prioriteringerne i C, for at sætte parenteserne korrekt.
-
-// Check at overstående program, og dit modificerede program, er ækvivalente (giver det samme output når værdierne af res1, ..., res4 udskrives).
