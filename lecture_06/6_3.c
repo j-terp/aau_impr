@@ -1,11 +1,3 @@
-// Dette program handler om seddeludlevering fra en amerikansk pengeautomat, hvor der kun anvendes 100, 50, 20 og 10 dollar sedler.
-
-// Målet med programmet er at arbejde med både input og outputparametre af en funktion.
-
-// Programmet skal som input acceptere et dollar beløb, der er dividerbart med 10. Programmet skal beregne antallet af udleverede 100, 50, 20 og 10 dollar sedler svarende til beløbet. Der skal udleveres så få sedler som muligt.
-
-// Problemet skal løses med en funktion der tager både input og output parametre. Beløbet, der skal veksles, skal være en input parameter. Antallet af udleverede 100, 50, 20 og 10 dollar sedler skal være output parametre.
-
 #include <stdio.h>
 #include <stdlib.h>
 

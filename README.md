@@ -162,15 +162,15 @@ Files for the course in Imperative Programming at AAU
 
 ## [6. Functions and aprameters](./lecture_06/README.md)
 
-- [ ] **6.1** - Celsius to Fahrenheit with output parameters
+- [ ] **6.1** - [Celsius to Fahrenheit with output parameters](./lecture_06/6_1.md)
   - [6_1.c](./lecture_06/6_1.c)
-- [x] **6.2** - Hours, minutes and seconds - again, again
+- [x] **6.2** - [Hours, minutes and seconds - again, again](./lecture_06/6_2.md)
   - [6_2.c](./lecture_06/6_2.c)
-- [ ] **6.3** - Banknote delivery from an ATM
+- [ ] **6.3** - [Banknote delivery from an ATM](./lecture_06/6_3.md)
   - [6_3.c](./lecture_06/6_3.c)
-- [ ] **6.4** - A function that calls another functions several times
+- [ ] **6.4** - [A function that calls another functions several times](./lecture_06/6_4.md)
   - [6_4.c](./lecture_06/6_4.c)
-- [ ] **6.6** - Currency converter
+- [ ] **6.6** - [Currency converter](./lecture_06/6_6.md)
   - [6_6.c](./lecture_06/6_6.c)
 
 ---
