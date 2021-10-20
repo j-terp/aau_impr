@@ -20,18 +20,18 @@ Files for the course in Imperative Programming at AAU
   - [assignment4.c](./assignment_4.c)
 - [x] **Assignment 5** - [Step by step refinement of solveQuadraticEquation](./assignments/assignment5.md) [`exercise`](./lecture_05/5_1.c)
   - [assignment5.c](./assignment_5.c)
-- [ ] **assignment 10** - [Palindromes](./assignments/assignment10.md) [`exercise`](./lecture_10/11_2.c)
+- [ ] **Assignment 10** - [Palindromes](./assignments/assignment10.md) [`exercise`](./lecture_10/11_2.c)
   - [](./assignment_10.c)
-- [ ] **Assignment 11** - [Playing Cards](./assignments/assignment11.md) [`exercise`](./lecture_11/12_s4.c)
+- [ ] **Assignment 11** - [Playing Cards](./assignments/assignment11.md) [`exercise`](./lecture_11/12_4.c)
   - [](./assingment_11.c)
 
 ---
 
 ## [1. Course Introduction](./lecture_01/README.md)
 
-- [x] **1.9** - Programming style
+- [x] **1.9** - [Programming style](./lecture_01/1_9.md)
   - [1_9.c](./1_9.c)
-- [x] **1.10** - Copy, edit, compile and run a program
+- [x] **1.10** - [Copy, edit, compile and run a program](./lecture_01/1_10.md)
   - [prog.c](./prog.c)
 
 ---
