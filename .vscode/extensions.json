@@ -1,8 +1,0 @@
-{
-  "recommendations": [
-    "ms-vscode.cpptools",
-    "github.vscode-pull-request-github",
-    "davidanson.vscode-markdownlint",
-    "icrawl.discord-vscode"
-  ]
-}
