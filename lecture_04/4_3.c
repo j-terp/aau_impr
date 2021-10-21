@@ -1,9 +1,3 @@
-// Skriv et program som læser et heltal n. Programmet skal addere alle tal i intervallet fra n til 2 * n hvis n er ikke negativ. Hvis n er negativ, skal programmet addere tallene fra 2 * n til n.
-
-// Skriv først en version med for-løkker. Dernæst en version med while løkker.
-
-// Denne opgave stammer fra bogen C by Dissection - anvendt med tilladelse fra forlaget.
-
 #include <stdio.h>
 #include <stdlib.h>
 
