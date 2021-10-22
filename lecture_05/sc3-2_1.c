@@ -1,10 +1,4 @@
-// Rewrite the following mathematical expressions using C functions:
-/*
-a) root2(u + v) * w^2
-b) log-e(x^y)
-c) root2((x - y)^3)
-d) |x * y - w / z|
-*/
+#include <math.h>
 
 int main(void) {
   int u, v, w, x, y, z;
