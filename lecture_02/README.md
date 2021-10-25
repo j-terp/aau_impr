@@ -9,7 +9,7 @@
   - [2_3.c](./2_3.c)
 - [x] **2.4** - [Scan of doubles](./2_4.md)
   - [2_4.c](./2_4.c)
-- [x] **2.5** - [Weeks, days, hours, minutes and seconds](./2_5.md) [`assignment`](../assignments/assignment_2.c)
+- [x] **2.5** - [Weeks, days, hours, minutes and seconds](./2_5.md) [`assignment`](../assignments/assignment2.md)
   - [2_5.c](./2_5.c)
 - [x] **2.6** - [Experiences with scanf](./2_6.md)
 - [x] **2.7** - [Unitialized variables](./2_7.md)

@@ -11,7 +11,7 @@
 - [x] **4.3** - [Another sum of numbers in an interval](./4_3.md)
   - [4_3.c](./4_3.c)
 - [x] **4.5** - [A simplified edition of Euclids algorithm](./4_5.md)
-- [x] **4.6** - Straightforward programming of biggest common divisor [`assignment`](../assignments/assignment_4.c)
+- [x] **4.6** - Straightforward programming of biggest common divisor [`assignment`](../assignments/assignment4.md)
   - [4_6.c](./4_6.c)
 - [x] **P 5.3-1** - [Programming Exercise](./p5-4_2.md)
   - [p5-3_1.c](./p5-3_1.c)

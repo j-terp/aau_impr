@@ -9,7 +9,7 @@
 - [x] **3.2** - [Operator priorities in logical expressions](./3_2.md)
   - [3_2.c](./3_2.c)
 - [x] **3.3** - [pH values](./3_3.md)
-- [x] **3.4** - [Hours, minutes and seconds - again](./3_4.md) [`assignment`](../assignments/assignment_3.c)
+- [x] **3.4** - [Hours, minutes and seconds - again](./3_4.md) [`assignment`](../assignments/assignment3.md)
   - [3_4.c](./3_4.c)
 - [x] **3.5** - [Order of conditions in an if-else chain](./3_5.md)
 - [x] **P 4.2-1** - [Programming Exercise](./p4-2_1.md)
