@@ -16,7 +16,7 @@ int main(void) {
     nArray[i] = rand() % 100;
   }
   
-  printf("\n- - -  Sorted  - - -\n");
+  printf("\n- - -  Unsorted  - - -\n");
   for (size_t i = 0; i < array_size; i++)
     printf("[%2d] = %d\n", i, nArray[i]);
 
