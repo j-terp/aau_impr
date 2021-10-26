@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int check_duplicates(double[], int, double[], int);
-double *merge_ascend_array(double[], int, double[], int);
-void PrintDoubleArray (double *, int);
+double *merge_ascend_array(double[], int, double[], int, int *);
+double *trim_array(double[], int);
 
 
 int main(void) {
@@ -12,15 +11,22 @@ int main(void) {
   double arrayA[] = {0.0, 5.0, 5.0, 9.0, 13.0, 15.0},
          arrayB[] = {2.0, 3.0, 5.0, 7.0, 10.0, 12.0, 15.0, 20.0, 25.0};
   int arrayA_length = sizeof(arrayA)/sizeof(arrayA[0]),
-      arrayB_length = sizeof(arrayB)/sizeof(arrayB[0]);
-  double *resultArray;
+      arrayB_length = sizeof(arrayB)/sizeof(arrayB[0]),
+      arrayT_length;
+  double *resultArray,
+         *trimArray;
 
   // arrayR_length -= check_duplicates(arrayA, arrayA_length, arrayB, arrayB_length);
-  resultArray = merge_ascend_array(arrayA, arrayA_length, arrayB, arrayB_length);
+  resultArray = merge_ascend_array(arrayA, arrayA_length, arrayB, arrayB_length, &arrayT_length);
+  trimArray = trim_array(resultArray, arrayT_length);
+  for (size_t i = 0; i < arrayT_length; i++) {
+    printf("[%d] %f", i, trimArray[i]);
+  }
+  
   return EXIT_SUCCESS;
 }
 
-double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int lengthB) {
+double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int lengthB, int *trimLength) {
   int i = 0, j = 0, k = 0;
   double a, b;
   double x, mem;
@@ -42,6 +48,7 @@ double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int le
           x = a;
           i++;
           j++;
+          *trimLength--;
         }
         else if (a < b) {
           x = a;
@@ -55,32 +62,44 @@ double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int le
         // Assignment of the lowest element
         mem = x;
         arrayR[k] = x;
-        printf("[%d] = %f\n", k, arrayR[k]);
         k++;
       }
 
       // If one of the elements were a duplicate of a previous element, it is skipped
       else {
-        if (a == mem)
+        if (a == mem) {
           i++;
-        if (b == mem)
+          *trimLength--;
+        }
+        if (b == mem) {
           j++;
+          *trimLength--;
+        }
       }
     }
 
     // The remaining sort, where the last of the remaining array is added on
     while (i < lengthA) {
       arrayR[k] = arrayA[i];
-      printf("[%d] = %f\n", k, arrayR[k]);
       i++;
       k++;
     }
     while (j < lengthB) {
       arrayR[k] = arrayB[j];
-      printf("[%d] = %f\n", k, arrayR[k]);
       j++;
       k++;
     }
   }
   return arrayR;
+}
+
+// Trims array to correct size
+double *trim_array(double array[], const int length) {
+  int i;
+  double *newArray;
+  newArray = (double *)malloc(length * sizeof(double));
+  for (i = 0; i < length; i++) {
+    newArray[i] = array[i];
+  }
+  return newArray;
 }
