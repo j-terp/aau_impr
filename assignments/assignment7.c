@@ -1,37 +1,44 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-double *merge_ascend_array(double[], int, double[], int, int *);
+double *merge_ascend_array(double[], int, double[], int, double*, int*);
 double *trim_array(double[], int);
-
+void print_array(double[], int);
 
 int main(void) {
   double x, mem;
   
-  double arrayA[] = {0.0, 5.0, 5.0, 9.0, 13.0, 15.0},
+  // Arrays
+  double arrayA[] = {0.0, 5.0, 5.0, 9.0, 13.0, 15.0, 30.0},
          arrayB[] = {2.0, 3.0, 5.0, 7.0, 10.0, 12.0, 15.0, 20.0, 25.0};
+  double *mergedArray;
+
+  // Array lengths
   int arrayA_length = sizeof(arrayA)/sizeof(arrayA[0]),
       arrayB_length = sizeof(arrayB)/sizeof(arrayB[0]),
-      arrayT_length;
-  double *resultArray,
-         *trimArray;
+      mergedArray_length;
 
-  // arrayR_length -= check_duplicates(arrayA, arrayA_length, arrayB, arrayB_length);
-  resultArray = merge_ascend_array(arrayA, arrayA_length, arrayB, arrayB_length, &arrayT_length);
-  trimArray = trim_array(resultArray, arrayT_length);
-  for (size_t i = 0; i < arrayT_length; i++) {
-    printf("[%d] %f", i, trimArray[i]);
-  }
+  // Merging arrays and trimming the result
+  mergedArray = merge_ascend_array(arrayA, arrayA_length, arrayB, arrayB_length, mergedArray, &mergedArray_length);
+  
+  // Prints out arrays
+  printf("\nArray A\n");
+  print_array(arrayA, arrayA_length);
+  printf("\nArray B\n");
+  print_array(arrayB, arrayB_length);
+  printf("\nMerged array\n");
+  print_array(mergedArray, mergedArray_length);
   
   return EXIT_SUCCESS;
 }
 
-double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int lengthB, int *trimLength) {
+// Ascend sorts two ascend sorted arrays
+double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int lengthB, double *arrayR, int *trimLength) {
   int i = 0, j = 0, k = 0;
   double a, b;
   double x, mem;
-  double *arrayR;
   int lengthR = lengthA + lengthB;
+  *trimLength = lengthR;
   arrayR = (double *)malloc(lengthR * sizeof(double));
   
   // While the arrays have not been sorted through
@@ -48,7 +55,7 @@ double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int le
           x = a;
           i++;
           j++;
-          *trimLength--;
+          (*trimLength)--;
         }
         else if (a < b) {
           x = a;
@@ -69,11 +76,11 @@ double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int le
       else {
         if (a == mem) {
           i++;
-          *trimLength--;
+          (*trimLength)--;
         }
         if (b == mem) {
           j++;
-          *trimLength--;
+          (*trimLength)--;
         }
       }
     }
@@ -90,16 +97,25 @@ double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int le
       k++;
     }
   }
-  return arrayR;
+  // Trimming the returning array
+  arrayR = trim_array(arrayR, *trimLength);
 }
 
 // Trims array to correct size
 double *trim_array(double array[], const int length) {
   int i;
-  double *newArray;
-  newArray = (double *)malloc(length * sizeof(double));
+
+  // Empty array with the trimmed length
+  double *newArray = (double *)malloc(length * sizeof(double));
   for (i = 0; i < length; i++) {
     newArray[i] = array[i];
   }
   return newArray;
+}
+
+// Prints array
+void print_array(double array[], int length) {
+  for (size_t i = 0; i < length; i++) {
+    printf("[%d] %f\n", i, array[i]);
+  }
 }
