@@ -4,12 +4,6 @@ Files for the course in Imperative Programming at AAU
 
 ---
 
-## [Exams](./exams/README.md)
-
-- [x] **Exam 1** - [Commandline Calculator](./exams/exam1.md)
-
----
-
 ## [Assignments](./assignments/README.md)
 
 - [x] **Assignment 2** - [Weeks, days, hours, minutes and seconds](./assignments/assignment2.md) [`exercise`](./lecture_02/2_5.c)
