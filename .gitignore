@@ -1,5 +1,5 @@
 *.exe
 *.o
-exams/*.c
+exams
 .vscode
 shared
