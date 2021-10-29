@@ -33,72 +33,70 @@ int main(void) {
 }
 
 // Ascend sorts two ascend sorted arrays
-double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int lengthB, double *arrayR, int *trimLength) {
+double *merge_ascend_array(double arrayA[], int lengthA, double arrayB[], int lengthB, double *trimmedArray, int *trimLength) {
   int i = 0, j = 0, k = 0;
   double a, b;
   double x, mem;
+  double *arrayR;
   int lengthR = lengthA + lengthB;
   *trimLength = lengthR;
   arrayR = (double *)malloc(lengthR * sizeof(double));
   
-  // While the arrays have not been sorted through
-  while (i < lengthA || j < lengthB) {
+  // The main sorting component
+  while (i < lengthA && j < lengthB) {
+    a = arrayA[i];
+    b = arrayB[j];
     
-    // The main sorting component
-    while (i < lengthA && j < lengthB) {
-      a = arrayA[i];
-      b = arrayB[j];
-      
-      // Lowest unsorted elements comparisons
-      if (a != mem && b != mem) {
-        if (a == b) {
-          x = a;
-          i++;
-          j++;
-          (*trimLength)--;
-        }
-        else if (a < b) {
-          x = a;
-          i++;
-        }
-        else {
-          x = b;
-          j++;
-        }
-
-        // Assignment of the lowest element
-        mem = x;
-        arrayR[k] = x;
-        k++;
+    // Lowest unsorted elements comparisons
+    if (a != mem && b != mem) {
+      if (a == b) {
+        x = a;
+        i++;
+        j++;
+        (*trimLength)--;
       }
-
-      // If one of the elements were a duplicate of a previous element, it is skipped
+      else if (a < b) {
+        x = a;
+        i++;
+      }
       else {
-        if (a == mem) {
-          i++;
-          (*trimLength)--;
-        }
-        if (b == mem) {
-          j++;
-          (*trimLength)--;
-        }
+        x = b;
+        j++;
       }
+
+      // Assignment of the lowest element
+      mem = x;
+      arrayR[k] = x;
+      k++;
     }
 
-    // The remaining sort, where the last of the remaining array is added on
-    while (i < lengthA) {
+    // If one of the elements were a duplicate of a previous element, it is skipped
+    else {
+      if (a == mem) {
+        i++;
+        (*trimLength)--;
+      }
+      if (b == mem) {
+        j++;
+        (*trimLength)--;
+      }
+    }
+  }
+
+  // The remaining sort, where the last of the remaining array is added on
+  while (i < lengthA) {
       arrayR[k] = arrayA[i];
       i++;
       k++;
     }
-    while (j < lengthB) {
+  while (j < lengthB) {
       arrayR[k] = arrayB[j];
       j++;
       k++;
     }
-  }
+
   // Trimming the returning array
-  arrayR = trim_array(arrayR, *trimLength);
+  trimmedArray = trim_array(arrayR, *trimLength);
 }
 
 // Trims array to correct size
