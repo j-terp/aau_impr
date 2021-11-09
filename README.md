@@ -173,40 +173,55 @@ Files for the course in Imperative Programming at AAU
 
 ## [8. Datatypes and Tests](./lecture_08/README.md)
 
-- [ ] **7.2** - Test of the program that counts hours, minutes and seconds
+- [x] **7.2** - [Test of the program that counts hours, minutes and seconds](./lecture_08/7_2.md)
   - [7_2.c](./lecture_08/7_2.c)
-- [ ] **7.4** - Get a good start with CUTest
+- [ ] **7.4** - [Get a good start with CUTest](./lecture_08/7_4.md)
   - [7_4.c](./lecture_08/7_4.c)
-- [ ] **8.1** - A random menu
+- [x] **8.1** - [A random menu](./lecture_08/8_1.md)
   - [8_1.c](./lecture_08/8_1.c)
+- [x] **PP 5.15** - [Programming Project Exercise](./lecture_08/pp5_15.md)
+  - [pp5_15.c](./lecture_08/pp5_15.c)
+- [x] **PP 5.17** - [Programming Project Exercise](./lecture_08/pp5_17.md)
+  - [pp5_17.c](./lecture_08/pp5_17.c)
 
 ---
 
 ## [9. Characters and Strings](./lecture_09/README.md)
 
-- [ ] **9.9** - Associative arrays
+- [x] **9.9** - [Associative arrays](./lecture_09/9_9.md)
   - [9_9.c](./lecture_09/9_9.c)
-- [ ] **10.1** - The function strrev
+- [x] **10.1** - [The function strrev](./lecture_09/10_1.md)
   - [10_1.c](./lecture_09/10_1.c)
-- [ ] **10.3** - Plural nouns
+- [x] **10.3** - [Plural nouns](./lecture_09/10_3.md)
   - [10_3.c](./lecture_09/10_3.c)
-- [ ] **10.4** - Longest commen ending of two words
+- [x] **10.4** - [Longest commen ending of two words](./lecture_09/10_4.md)
   - [10_4.c](./lecture_09/10_4.c)
+- [ ] **P 8-2.2** - [Programming Exercise](./lecture_09/p8-2_2.md)
+  - [p8-2_2.c](./lecture_09/p8-2_2.c)
+- [ ] **p8-7.1** - [Programming Exercise](./lecture_09/p8-7_1.md)
+  - [p8-7_1.c](./lecture_09/p8-7_1.c)
+- [x] **PP 8.8** - [Programming Project Exercise](./lecture_09/pp8_8.md)
+  - [pp8_8.c](./lecture_09/pp8_8.c)
 
 ---
 
 ## [10. Recursion](./lecture_10/README.md)
 
-- [ ] **10.2** - Own version of the function strcmp
+- [x] **10.2** - [Own version of the function strcmp](./lecture_10/10_2.md)
   - [10_2.c](./lecture_10/10_2.c)
-- [ ] **11.1** - A Fibonacci function with memorial work
+- [x] **11.1** - [A Fibonacci function with memorial work](./lecture_10/11_1.md)
   - [11_1.c](./lecture_10/11_1.c)
-- [ ] **11.2** - Palindromes [`assignment`](./assignments/assignment_10.c)
+- [x] **11.2** - [Palindromes](./lecture_10/11_2.md) [`assignment`](./assignments/assignment10.md)
   - [11_2.c](./lecture_10/11_2.c)
-- [ ] **11.3** - Whole number division and signed remainder with recursive functions
+- [x] **11.3** - [Whole number division and signed remainder with recursive functions](./lecture_10/11_3.md)
   - [11_3.c](./lecture_10/11_3.c)
-- [ ] **11.5** - Recursive versions of Euclids algorithm
+- [x] **11.4** - [blob_count](./lecture_10/11_4.md)
+  - [pp9_1.md](./lecture_10/pp9_1.md)
+  - [11_4.c](./lecture_10/11_4.c)
+- [x] **11.5** - [Recursive versions of Euclids algorithm](./lecture_10/11_5.md)
   - [11_5.c](./lecture_10/11_5.c)
+- [x] **PP 9.3** - [Programming Project Exercise](./lecture_10/pp9_3.md)
+  - [pp9_3.c](./lecture_10/pp9_3.c)
 
 ---
 
