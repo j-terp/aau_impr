@@ -4,8 +4,8 @@
 
 #define WORD_LENGTH 100
 
-int isPalindrome(char*);
-int loopPalindrome(char*);
+int isPalindromeIter(char*);
+int isPalindromeRec(char*);
 
 int main(void) {
   char *string;
@@ -15,8 +15,8 @@ int main(void) {
   printf("> ");
   scanf("%s", string);
   
-  flag1 = loopPalindrome(string);
-  flag2 = isPalindrome(string);
+  flag1 = isPalindromeIter(string);
+  flag2 = isPalindromeRec(string);
   if (flag1 == 1 && flag2 == 1)
     printf("True\n");
   else if (!(flag1 || flag2))
@@ -28,7 +28,7 @@ int main(void) {
 }
 
 /* Iterativ */
-int loopPalindrome(char *str) {
+int isPalindromeIter(char *str) {
   int i;
   for (i = 0; i < strlen(str) / 2; i++) {
     if (str[i] != str[strlen(str) - 1 - i])
@@ -38,10 +38,11 @@ int loopPalindrome(char *str) {
 }
 
 /* Rekursiv */
-int isPalindrome(char *str) {
+int isPalindromeRec(char *str) {
   if(str[0] == str[strlen(str) - 1]) {
     if (strlen(str) > 2) {
-      return str[strlen(str) - 1] = '\0', isPalindrome(str+1);
+      str[strlen(str) - 1] = '\0';
+      return isPalindrome(str+1);
     }
     else
       return 1;
