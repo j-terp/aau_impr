@@ -198,7 +198,7 @@ Files for the course in Imperative Programming at AAU
   - [10_4.c](./lecture_09/10_4.c)
 - [ ] **P 8-2.2** - [Programming Exercise](./lecture_09/p8-2_2.md)
   - [p8-2_2.c](./lecture_09/p8-2_2.c)
-- [ ] **p8-7.1** - [Programming Exercise](./lecture_09/p8-7_1.md)
+- [x] **p8-7.1** - [Programming Exercise](./lecture_09/p8-7_1.md)
   - [p8-7_1.c](./lecture_09/p8-7_1.c)
 - [x] **PP 8.8** - [Programming Project Exercise](./lecture_09/pp8_8.md)
   - [pp8_8.c](./lecture_09/pp8_8.c)

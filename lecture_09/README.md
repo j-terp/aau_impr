@@ -14,7 +14,7 @@
   - [10_4.c](./10_4.c)
 - [ ] **P 8-2.2** - [Programming Exercise](./p8-2_2.md)
   - [p8-2_2.c](./p8-2_2.c)
-- [ ] **p8-7.1** - [Programming Exercise](./p8-7_1.md)
+- [x] **p8-7.1** - [Programming Exercise](./p8-7_1.md)
   - [p8-7_1.c](./p8-7_1.c)
 - [x] **PP 8.8** - [Programming Project Exercise](./pp8_8.md)
   - [pp8_8.c](./pp8_8.c)
