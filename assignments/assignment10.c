@@ -39,14 +39,14 @@ int isPalindromeIter(char *str) {
 
 /* Rekursiv */
 int isPalindromeRec(char *str) {
-  if(str[0] == str[strlen(str) - 1]) {
-    if (strlen(str) > 2) {
+  if (strlen(str) > 1) {
+    if (str[0] == str[strlen(str) - 1]){
       str[strlen(str) - 1] = '\0';
-      return isPalindrome(str+1);
+      return isPalindromeRec(str+1);
     }
     else
-      return 1;
+      return 0;
   }
   else
-    return 0;
+    return 1;  
 }

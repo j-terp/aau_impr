@@ -40,7 +40,7 @@ int loopPalindrome(char *str) {
 /* Rekursiv */
 int isPalindrome(char *str) {
   if(str[0] == str[strlen(str) - 1]) {
-    if (strlen(str) > 2) {
+    if (strlen(str) > 1) {
       return str[strlen(str) - 1] = '\0', isPalindrome(str+1);
     }
     else
