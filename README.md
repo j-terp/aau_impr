@@ -227,13 +227,13 @@ Files for the course in Imperative Programming at AAU
 
 ## [11. Datastructures - Structs](./lecture_11/README.md)
 
-- [ ] **12.2** - Sorting an array of books
+- [x] **12.2** - Sorting an array of books
   - [12_2.c](./lecture_11/12_2.c)
-- [ ] **12.3** - The function tomorrow
+- [x] **12.3** - The function tomorrow
   - [12_3.c](./lecture_11/12_3.c)
-- [ ] **12.4** - Playing Cards [`assignment`](./assignments/assignment_11.c)
+- [x] **12.4** - Playing Cards [`assignment`](./assignments/assignment_11.c)
   - [12_4.c](./lecture_11/12_4.c)
-- [ ] **12.5** - Fractions and structs
+- [x] **12.5** - Fractions and structs
   - [12_5.c](./lecture_11/12_5.c)
 
 ---
