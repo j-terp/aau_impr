@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-vscode.cpptools",
+    "github.vscode-pull-request-github",
+    "ms-vsliveshare.vsliveshare",
+    "ozaki.markdown-github-dark",
+    "bierner.markdown-checkbox"
+  ]
+}
