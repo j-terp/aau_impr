@@ -14,6 +14,8 @@
   - [assignment5.c](./assignment5.c)
 - [x] **Assignment 7** - [Programming Project exercise](./assignment7.md) [`exercise`](../lecture_07/pp7_11.md)
   - [assignment7.c](./assignment7.c)
+- [x] **Assignment 8** - [Programming Project exercise](./assignment7.md) [`exercise`](../lecture_08/pp5_17.md)
+  - [assignment8.c](./assignment8.c)
 - [x] **Assignment 10** - [Palindromes](./assignment10.md) [`exercise`](../lecture_10/11_2.md)
   - [assigment10.c](./assignment10.c)
 - [x] **Assignment 11** - [Playing Cards](./assignment11.md) [`exercise`](../lecture_11/12_s4.md)
